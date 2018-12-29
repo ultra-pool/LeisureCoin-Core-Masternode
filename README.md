@@ -7,6 +7,13 @@ chmod +x leisure_mn_simple_setup.sh
 ./leisure_mn_simple_setup.sh
 ```
 
+UPDATE FROM OLDER MASTERNODE ONLY:
+```
+wget https://raw.githubusercontent.com/LeisureCoinProject/LeisureCoin-Core-Masternode/master/leisure_update_mn.sh 
+chmod +x leisure_update_mn.sh
+./leisure_update_mn.sh
+```
+
 This LeisureCoin-Core-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
 
 Please note to run this script you MUST:  
