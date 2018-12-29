@@ -1,6 +1,6 @@
 # LeisureCoin-Core-Masternode Setup
 
-If you just want the commands for VPS setup:
+If you just want the commands for NEW VPS setup:
 ```
 wget https://raw.githubusercontent.com/LeisureCoinProject/LeisureCoin-Core-Masternode/master/leisure_mn_simple_setup.sh 
 chmod +x leisure_mn_simple_setup.sh
