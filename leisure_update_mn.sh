@@ -15,7 +15,9 @@ sudo mv -f LeisureCoin-cli /usr/local/bin
 sudo mv -f LeisureCoind /usr/local/bin
 sudo mv -f LeisureCoin-tx /usr/local/bin
 sudo rm leisure_mn.zip
+echo -e ""
 echo "! Restarting LeisureCoin Masternode !"
+echo -e ""
 cd ~/.LeisureCoin
 sudo rm budget.dat db.log debug.log fee_estimates.dat LeisureCoind.pid mnpayments.dat mncache.dat
 sudo rm -R backups/
@@ -24,4 +26,7 @@ sudo rm -R chainstate/
 sudo rm -R database/
 sudo rm -R sporks/
 sudo LeisureCoin-cli stop
+echo ""
+echo "If you see any file not found errors, that is ok!"
+echo ""
 echo "LeisureCoin Masternode restarted"
