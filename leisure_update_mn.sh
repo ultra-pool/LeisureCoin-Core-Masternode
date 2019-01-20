@@ -9,7 +9,7 @@ echo
 cd ~
 echo "Removing any zip file of previous install"
 sudo rm leisure_mn.zip
-wget https://github.com/LeisureCoinProject/LeisureCoin-Core-Masternode/releases/download/v2.0/leisure_mn.zip
+wget https://github.com/LeisureCoinProject/LeisureCoin-Core-Masternode/releases/download/v1.1.0.3/leisure_mn.zip
 sudo unzip leisure_mn.zip
 sudo mv -f LeisureCoin-cli /usr/local/bin
 sudo mv -f LeisureCoind /usr/local/bin
