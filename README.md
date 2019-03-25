@@ -7,8 +7,9 @@ chmod +x leisure_mn_simple_setup.sh
 ./leisure_mn_simple_setup.sh
 ```
 
-UPDATE FROM OLDER MASTERNODE ONLY:
+UPDATE FROM OLDER MASTERNODE ONLY: (first line makes sure if file exists from previous update it's deleted)
 ```
+rm leisure_update_mn.sh
 wget https://raw.githubusercontent.com/LeisureCoinProject/LeisureCoin-Core-Masternode/master/leisure_update_mn.sh 
 chmod +x leisure_update_mn.sh
 ./leisure_update_mn.sh
